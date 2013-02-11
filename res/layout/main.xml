@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:gravity="center"
+    android:padding="30dip"
+    tools:context=".Asteroides" >
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/tituloApp"
+        android:textSize="25sp" 
+        android:layout_marginBottom="20dip"
+        />
+
+    <Button
+        android:id="@+id/buttonPlay"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="@string/jugar" />
+    <Button
+        android:id="@+id/buttonConfig"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="@string/configurar" />
+    <Button
+        android:id="@+id/buttonAcercaDe"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="@string/AcercaDe" />
+    <Button
+        android:id="@+id/buttonExit"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="@string/Salir" />
+
+</LinearLayout>

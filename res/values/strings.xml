@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Asteroides</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="tituloApp">Asteroides</string>
+    <string name="jugar">Jugar</string>
+    <string name="configurar">configurar</string>
+    <string name="AcercaDe">Acerca De</string>
+    <string name="Salir">Salir</string>
+
+</resources>
