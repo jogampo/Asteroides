@@ -1,5 +1,26 @@
-<resources>
-
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <style name="TemaAsteroides" 
+        parent="@android:style/Theme.NoTitleBar">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>         
+    </style>
+    
+    <!-- Estilo de Asteroides -->
+    <style name="TextoAsteroides">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+		<item name="android:textSize">25sp</item>        
+		<item name="android:layout_marginBottom">20dip</item>                   
+    </style>
+    
+    <style name="TextoAsteroides.Botones">
+	     <item name="android:layout_marginBottom">0dip</item>
+	     <item name="android:textSize">15sp</item>
+	     <item name="android:padding">10dip</item>                   
+    </style>    
+    
     <!--
         Base application theme, dependent on API level. This theme is replaced
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.

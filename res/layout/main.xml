@@ -3,39 +3,33 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical" 
-    android:gravity="center"
-    android:padding="30dip"
+    android:gravity="center"     
+    android:padding="30dip"       
     tools:context=".Asteroides" >
 
     <TextView
-        android:id="@+id/titulo"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="@string/tituloApp"
-        android:textSize="25sp" 
-        android:layout_marginBottom="20dip"
+        android:id="@+id/titulo"        
+        android:text="@string/tituloApp"        
+    	style="@style/TextoAsteroides"    
         />
 
     <Button
-        android:id="@+id/buttonPlay"
-        android:layout_height="wrap_content"
-        android:layout_width="fill_parent"
-        android:text="@string/jugar" />
+        android:id="@+id/buttonPlay"        
+        style="@style/TextoAsteroides.Botones"          
+        android:text="@string/jugar" 
+          
+     />
     <Button
-        android:id="@+id/buttonConfig"
-        android:layout_height="wrap_content"
-        android:layout_width="fill_parent"
+        android:id="@+id/buttonConfig"          
+        style="@style/TextoAsteroides.Botones"        
         android:text="@string/configurar" />
     <Button
-        android:id="@+id/buttonAcercaDe"
-        android:layout_height="wrap_content"
-        android:layout_width="fill_parent"
+        android:id="@+id/buttonAcercaDe"        
+        style="@style/TextoAsteroides.Botones"        
         android:text="@string/AcercaDe" />
     <Button
-        android:id="@+id/buttonExit"
-        android:layout_height="wrap_content"
-        android:layout_width="fill_parent"
+        android:id="@+id/buttonExit"        
+        style="@style/TextoAsteroides.Botones"
         android:text="@string/Salir" />
 
 </LinearLayout>
