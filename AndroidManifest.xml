@@ -10,7 +10,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/icono"
         android:label="@string/app_name"
         android:theme="@style/TemaAsteroides" >
         <activity
@@ -23,6 +23,11 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:label="Preferencias" 
+                  android:name=".Preferencias"
+                  android:theme="@android:style/Theme.Dialog">
+            
         </activity>
         <activity android:label="Acerca de ..." 
                   android:name=".AcercaDe" 

@@ -22,7 +22,8 @@
     <Button
         android:id="@+id/buttonConfig"          
         style="@style/TextoAsteroides.Botones"        
-        android:text="@string/configurar" />
+        android:text="@string/configurar"
+        android:onClick="lanzarPreferencias" />
     <Button
         android:id="@+id/buttonAcercaDe"        
         style="@style/TextoAsteroides.Botones"        
