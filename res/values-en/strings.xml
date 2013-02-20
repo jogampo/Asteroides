@@ -9,5 +9,6 @@
     <string name="configurar">Config</string>
     <string name="AcercaDe">About</string>
     <string name="Salir">Exit</string>
+    <string name="Puntuaciones">Points</string>
 
 </resources>

@@ -13,6 +13,9 @@ public class Asteroides extends Activity {
 
 	//private Button bAcercaDe;
 	private Button bSalir;
+	//almacen de puntuaciones
+	public static AlmacenPuntuaciones almacen=
+             new AlmacenPuntuacionesArray();
 	
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -82,5 +85,11 @@ public class Asteroides extends Activity {
     public void lanzarSalir(View view){
     	finish();
     }
-    
+    public void lanzarPuntuaciones(View view) {
+
+    	Intent i = new Intent(this, Puntuaciones.class);
+
+    	startActivity(i);
+
+    }
 }

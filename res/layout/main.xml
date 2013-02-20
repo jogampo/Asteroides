@@ -30,9 +30,9 @@
         android:text="@string/AcercaDe"
         android:onClick="lanzarAcercaDe" />
     <Button
-        android:id="@+id/buttonExit"        
+        android:id="@+id/buttonPuntuacion"        
         style="@style/TextoAsteroides.Botones"
-        android:text="@string/Salir" 
-        android:onClick="lanzarSalir"/>
+        android:text="@string/Puntuaciones" 
+        android:onClick="lanzarPuntuaciones"/>
 
 </LinearLayout>
