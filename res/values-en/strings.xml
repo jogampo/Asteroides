@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-
-    <string name="app_name">Asteroides</string>
-    <string name="hello_world">Hello world!</string>
+<resources>    
+    <string name="app_name">Asteroids</string>
     <string name="menu_settings">Settings</string>
-    <string name="tituloApp">Asteroides</string>
+    <string name="tituloApp">Asteroids</string>
     <string name="jugar">Play</string>
-    <string name="configurar">Config</string>
+    <string name="configurar">Configure</string>
     <string name="AcercaDe">About</string>
     <string name="Salir">Exit</string>
-    <string name="Puntuaciones">Points</string>
-
+    <string name="Puntuaciones">Scores</string>    
+    <string name="textoAcercaDe">This program has been developed as example 
+        in Android course to demonstrate how new activities 
+        can be launched from the main activity.</string>
+    <string name="reproducirMusica">Play music</string>
+    <string name="textoReproducirMusica">It plays background music</string>
+    <string name="tipoGraficos">Type graphics</string>
+    <string name="textoTipoGraficos">It selects the type graphics</string>
+	<string name="sinPuntuaciones">There is no scores.</string>
+    <string name="otroTexto">Another text</string>
+    <string name="seleccion">Selected</string>
 </resources>
+
+
+    

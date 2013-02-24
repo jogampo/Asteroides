@@ -10,5 +10,14 @@
     <string name="AcercaDe">Acerca De</string>
     <string name="Salir">Salir</string>
     <string name="Puntuaciones">Puntuaciones</string>
+    <string name="textoAcercaDe">Este programa ha sido desarrollado como ejemplo en el curso de Android para 
+  demostrar cómo se pueden lanzar nuevas actividades desde la actividad principal.</string>
+    <string name="reproducirMusica">Reproducir Música</string>
+    <string name="textoReproducirMusica">Se reproduce música de fondo</string>
+    <string name="tipoGraficos">Tipo de gráficos</string>
+    <string name="textoTipoGraficos">Se escoge la representación de gráficos</string>
+	<string name="sinPuntuaciones">There is no scores.</string>
+    <string name="otroTexto">Another text</string>
+    <string name="seleccion">Selected</string>
 
 </resources>

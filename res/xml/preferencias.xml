@@ -10,17 +10,17 @@
 
     android:key="musica"
 
-    android:title="Reproducir música"
+    android:title="@string/reproducirMusica"
 
-    android:summary="Se reproduce música de fondo"/>
+    android:summary="@string/textoReproducirMusica"/>
 
   <ListPreference
 
     android:key="graficos"
 
-    android:title="Tipo de gráficos"
+    android:title="@string/tipoGraficos"
 
-    android:summary="Se escoge la representación de gráficos"
+    android:summary="@string/textoTipoGraficos"
 
     android:entries="@array/tiposGraficos"
 

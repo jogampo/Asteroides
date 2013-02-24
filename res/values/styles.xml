@@ -1,5 +1,6 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
     
+    <!-- Tema de asteroides -->
     <style name="TemaAsteroides" 
         parent="@android:style/Theme.NoTitleBar">
         <item name="android:layout_width">fill_parent</item>

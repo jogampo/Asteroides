@@ -11,7 +11,7 @@ import android.widget.Button;
 
 public class Asteroides extends Activity {
 
-	//private Button bAcercaDe;
+	private Button bAcercaDe;
 	private Button bSalir;
 	//almacen de puntuaciones
 	public static AlmacenPuntuaciones almacen=
@@ -21,7 +21,7 @@ public class Asteroides extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-        /**
+        
         bAcercaDe =(Button) findViewById(R.id.buttonAcercaDe);
 
         bAcercaDe.setOnClickListener(new OnClickListener() {
@@ -33,7 +33,7 @@ public class Asteroides extends Activity {
                   }
 
             });
-            */
+            
         /*
         bSalir = (Button) findViewById(R.id.buttonExit);
         bSalir.setOnClickListener(new OnClickListener() {

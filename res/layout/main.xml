@@ -27,12 +27,16 @@
     <Button
         android:id="@+id/buttonAcercaDe"        
         style="@style/TextoAsteroides.Botones"        
-        android:text="@string/AcercaDe"
-        android:onClick="lanzarAcercaDe" />
+        android:text="@string/AcercaDe"/>
     <Button
         android:id="@+id/buttonPuntuacion"        
         style="@style/TextoAsteroides.Botones"
         android:text="@string/Puntuaciones" 
         android:onClick="lanzarPuntuaciones"/>
+    <Button
+        android:id="@+id/buttonSalir"        
+        style="@style/TextoAsteroides.Botones"
+        android:text="@string/Salir" 
+        android:onClick="lanzarSalir"/>
 
 </LinearLayout>
