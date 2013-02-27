@@ -13,49 +13,46 @@ public class Asteroides extends Activity {
 
 	private Button bAcercaDe;
 	private Button bSalir;
-	//almacen de puntuaciones
-	public static AlmacenPuntuaciones almacen=
-             new AlmacenPuntuacionesArray();
-	
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
-        
-        bAcercaDe =(Button) findViewById(R.id.buttonAcercaDe);
+	// almacen de puntuaciones
+	public static AlmacenPuntuaciones almacen = new AlmacenPuntuacionesArray();
 
-        bAcercaDe.setOnClickListener(new OnClickListener() {
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.main);
 
-                   public void onClick(View view) {
+		bAcercaDe = (Button) findViewById(R.id.buttonAcercaDe);
 
-                        lanzarAcercaDe(null);
+		bAcercaDe.setOnClickListener(new OnClickListener() {
 
-                  }
-
-            });
-            
-        /*
-        bSalir = (Button) findViewById(R.id.buttonExit);
-        bSalir.setOnClickListener(new OnClickListener() {
-			
-			@Override
 			public void onClick(View view) {
-				lanzarSalir(null);
-				
-			}
-		});*/
-    }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu, menu);
-        return true;
-    }
-    
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-    	switch (item.getItemId()) {
+				lanzarAcercaDe(null);
+
+			}
+
+		});
+
+		/*
+		 * bSalir = (Button) findViewById(R.id.buttonExit);
+		 * bSalir.setOnClickListener(new OnClickListener() {
+		 * 
+		 * @Override public void onClick(View view) { lanzarSalir(null);
+		 * 
+		 * } });
+		 */
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.menu, menu);
+		return true;
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		switch (item.getItemId()) {
 		case R.id.config:
 			lanzarPreferencias(null);
 			break;
@@ -64,32 +61,41 @@ public class Asteroides extends Activity {
 			lanzarAcercaDe(null);
 			break;
 		}
-    	return true;
-    }
-    
-    public void lanzarAcercaDe(View view){
+		return true;
+	}
 
-        Intent i = new Intent(this, AcercaDe.class);
+	public void lanzarAcercaDe(View view) {
 
-              startActivity(i);
+		Intent i = new Intent(this, AcercaDe.class);
 
-      }
-    public void lanzarPreferencias(View view){
+		startActivity(i);
 
-        Intent i = new Intent(this, Preferencias.class);
+	}
 
-              startActivity(i);
+	public void lanzarPreferencias(View view) {
 
-      }
-    
-    public void lanzarSalir(View view){
-    	finish();
-    }
-    public void lanzarPuntuaciones(View view) {
+		Intent i = new Intent(this, Preferencias.class);
 
-    	Intent i = new Intent(this, Puntuaciones.class);
+		startActivity(i);
 
-    	startActivity(i);
+	}
+	public void lanzarJuego(View view) {
 
-    }
+		Intent i = new Intent(this, Juego.class);
+
+		startActivity(i);
+
+	}
+
+	public void lanzarSalir(View view) {
+		finish();
+	}
+
+	public void lanzarPuntuaciones(View view) {
+
+		Intent i = new Intent(this, Puntuaciones.class);
+
+		startActivity(i);
+
+	}
 }
